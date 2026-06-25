@@ -27,10 +27,10 @@
 
     <!-- Navigation -->
     <nav class="menu">
-        <a href="#">Products</a>
-        <a href="#">Services</a>
-        <a href="#">Customer Services</a>
-        <a href="#">Contact Us</a>
+        <a href="#Product">Products</a>
+        <a href="#Services">Services</a>
+        <a href="#Customer Services">Customer Services</a>
+        <a href="#Contact Us">Contact Us</a>
     </nav>
 
     <!-- Search Bar -->
@@ -79,7 +79,7 @@
     </aside>
 
     <!-- Product Area -->
-    <section class="products">
+    <section id="Product"  class="products">
 
         <!-- ROW 1 -->
         <div class="product-row">
@@ -195,6 +195,138 @@
     </section>
 
 </main>
+     
+    <!-- CART SECTION -->
+    <section class="cart-section" id="cart">
+        <div class="container">
+            <h2>Your Cart</h2>
+
+            <div class="cart-box">
+                <div class="cart-item">
+                     <span>Jollof Rice + Chicken</span>
+                      <span>₦4,500</span>
+                </div>
+
+                <div class="cart-item">
+                     <span>Egusi Soup + Pounded Yam</span>
+                     <span>₦6,000</span>
+                </div>
+
+                <div class="cart-total">
+                     <h3>Total: ₦10,500</h3>
+                </div>
+
+                <button class="checkout-btn">
+                    Proceed to Checkout
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+<!-- SERVICES SECTION -->
+    <section id="Services"   class="services-section">
+        <div class="container">
+             <h2>Our Services</h2>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <h3>Fast Delivery</h3>
+                    <p>
+                      Get your meals delivered quickly to your doorstep.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                     <h3>Freshly Prepared Meals</h3>
+                    <p>
+                         Every meal is prepared fresh daily with quality ingredients.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                     <h3>Online Ordering</h3>
+                    <p>
+                         Order your favourite Nigerian meals anytime.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+<!-- CUSTOMER CARE SECTION -->
+    <section  id="Customer Services"  class="customer-care">
+        <div class="container">
+             <h2>Customer Care</h2>
+
+            <div class="care-grid">
+
+                <div class="care-card">
+                     <h3>Order Support</h3>
+                    <p>
+                           Need help with your order? Contact our support team.
+                    </p>
+                </div>
+
+                <div class="care-card">
+                     <h3>Refund Policy</h3>
+                    <p>
+                          We ensure fair and transparent refund processing.
+                   </p>
+                </div>
+
+                <div class="care-card">
+                    <h3>Frequently Asked Questions</h3>
+                    <p>
+                         Find answers to common questions about orders and delivery.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- CONTACT SECTION -->
+     <section id="Contact Us" class="contact-section">
+         <div class="container">
+
+             <h2>Contact Us</h2>
+
+            <div class="contact-wrapper">
+
+                <div class="contact-info">
+                     <p><strong>Phone:</strong> +234 800 000 0000</p>
+                     <p><strong>Email:</strong> info@mamaputonline.com</p>
+                    <p><strong>Address:</strong> Lagos, Nigeria</p>
+                </div>
+
+                <form class="contact-form">
+
+                    <input type="text"
+                     placeholder="Your Name"
+                     required>
+
+                    <input type="email"
+                     placeholder="Your Email"
+                     required>
+
+                    <textarea
+                     placeholder="Your Message"
+                     rows="5"></textarea>
+
+                    <button type="submit">
+                       Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
 
 <!-- ================= FOOTER ================= -->
 

@@ -9,4 +9,5 @@ I want a landing page of an online Nigerian cooked meal restaurant website with 
   
   Let the landing page have footer with dark blue color with copy right and has four(4), example facebook hand is MamaPut Onlin, instagram handle is NigerianMeal@ MamaPutOnline and Tiktok handle should be MamaPutOnlin in Nigeria social media handles, the footer should be centered. Lastly, i want the menu and the footer to be sticky.
   Let the landing page have footer with dark blue color with copy right and has four(4) social media handles, example facebook hand is MamaPutOnline, instagram handle is NigerianMeal@ MamaPutOnline and Tiktok handle should be MamaPutOnlin in Nigeria, the footer should be centered. I want the menu and the footer to be sticky.
+  
   please provide me with the html structure and css of the above prompts which must carry comments for easy identification and engineering where necessary and lastly, i want the whole landing page to be mobile responsive.In a mobile, Hamburger should replace the menu bars and it should be by the right side of the header.
