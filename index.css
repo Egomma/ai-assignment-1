@@ -75,7 +75,7 @@ header{
 .hero{
     min-height:80vh;
 
-    background:url("../images/kitchen.jpg")
+    background:url("./kitchen.jpg")
     center/cover no-repeat;
 
     display:flex;
